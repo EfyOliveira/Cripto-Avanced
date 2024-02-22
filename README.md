@@ -11,7 +11,9 @@ Este script em Bash permite criptografar e descriptografar arquivos usando AES e
 
 1. Clone ou baixe este repositório.
 `git clone https://github.com/EfyOliveira/Cripto-Avanced/`
-2. Certifique-se de ter as chaves RSA (public_key.pem e private_key.pem). Para isso deixei um script para gerar as chaves aqui abaixo disponíveis no mesmo diretório que o script.
+`pkg install root-repo`
+`pkg install keyutils`
+3. Certifique-se de ter as chaves RSA (public_key.pem e private_key.pem). Para isso deixei um script para gerar as chaves aqui abaixo disponíveis no mesmo diretório que o script.
 Entre na pasta e executebo script para gerar chaves.
 `cd Cripto-Avanced`
 `chmod +x gerate-key.sh`
